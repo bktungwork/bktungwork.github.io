@@ -1,0 +1,123 @@
+/* CSS reset */
+
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+.main,
+.feature,
+header,
+.footer {
+  width: 960px;
+  margin: auto;
+  background-color: white;
+}
+hr {
+  border-top: 0.5px gray;
+  box-shadow: 0px 2px 4px 0px rbga (0, 0, 0, 4);
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* body part */
+
+h1 {
+  color: green;
+}
+.main-banner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: palevioletred;
+}
+/* CSS header */
+header {
+  background-color: greenyellow;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-item {
+  list-style: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+}
+.logo {
+  width: 70px;
+}
+.logo-image {
+  vertical-align: middle;
+}
+
+/* CSS main */
+main {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.categories {
+  background-color: seashell;
+}
+.products {
+  text-align: center;
+}
+.products-item {
+  border-radius: 20px;
+  display: inline-block;
+  width: 23%;
+  margin: 7px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  text-align: center;
+  border: 1px solid white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.products-name {
+  margin-top: 7px;
+}
+.products-price {
+  margin-top: 7px;
+  margin-bottom: 10px;
+}
+.products-icon img {
+  vertical-align: middle;
+  border-radius: 20px 20px 0px 0px;
+}
+
+/* CSS footer */
+
+.footer {
+  max-width: 100%;
+  background-color: black;
+}
+.contacts {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  width: 45%;
+}
+footer div h3 {
+  line-height: 50px;
+}
+footer {
+  vertical-align: center;
+  color: white;
+  line-height: 25px;
+}
+
+h3,
+p {
+  color: gray;
+}
