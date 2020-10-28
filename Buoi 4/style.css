@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: rgb(241, 241, 241);
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+.container {
+  margin-top: 150px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.last-login,
+.login-box {
+  display: inline-block;
+}
+.last-login {
+  float: left;
+}
+.login-box {
+  width: 396px;
+  margin-left: 200px;
+  box-shadow: none;
+  text-align: center;
+}
+#login {
+  box-shadow: 0 2px 4px;
+  height: 350px;
+  background-color: white;
+  border-radius: 6px;
+  padding-top: 10px;
+}
+#email {
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+}
+#password {
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border-radius: 6px;
+  line-height: 16px;
+}
+#login-button {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  color: white;
+  margin-top: 10px;
+}
+#forget-password {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 15px;
+}
+#break-line {
+  align-items: center;
+  border-bottom: 1px solid black;
+  display: flex;
+  margin: 17px 26px;
+  text-align: center;
+}
+#create {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  color: white;
+}
+#celeb {
+  border-top: none;
+  margin-top: 28px;
+}
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  color: rebeccapurple;
+}
+a:hover {
+  cursor: pointer;
+  color: orangered;
+}
+a:active {
+  color: yellow;
+}
