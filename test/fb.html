@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook - Đăng nhập hoặc đăng ký</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://facecrooks.com/wp-content/uploads/2013/10/facebook_logo_by_oguzburaksipsak-d4ubonk.png2.jpg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="last-login">
+        <div>
+          <img
+            style="height: 70px; margin: -20px"
+            src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg"
+            alt="Facebook"
+          />
+        </div>
+        <p style="font-size: 22px; line-height: 0%">Đăng nhập gần đây</p>
+        <p style="color: gray">Nhấp vào ảnh của bạn hoặc thêm tài khoản</p>
+        <div class="acc-info">
+          <img
+            class="acc-avatar"
+            src="https://scontent.fhan3-3.fna.fbcdn.net/v/t1.0-1/p160x160/11046269_1623378374599178_7823804462605517565_n.jpg?_nc_cat=106&ccb=2&_nc_sid=dbb9e7&_nc_ohc=6cchoSOW6J0AX8J8I7i&_nc_ht=scontent.fhan3-3.fna&tp=6&oh=e9cd9820cea2e5032d9199f0c2e1a8b3&oe=5FBBD105"
+            alt="Avatar"
+          />
+          <h3>Tùng</h3>
+        </div>
+      </div>
+      <div class="login-box">
+        <div class="login-form">
+          <form id="login" action="/login" method="GET">
+            <input
+              id="email"
+              autofocus="1"
+              name="email"
+              type="text"
+              style="margin: 10px"
+              placeholder="Email hoặc số điện thoại"
+            />
+            <input
+              id="password"
+              type="password"
+              name="password"
+              style="margin: 10px"
+              placeholder="Mật khẩu"
+            />
+            <br />
+            <button id="login-button">
+              <a href="kqxs.html">Đăng nhập</a>
+            </button>
+            <div id="forget-password">
+              <a href="#" style="color: blue">Quên mật khẩu ?</a>
+            </div>
+            <div id="break-line"></div>
+            <!-- <button id="create">
+              <a href="ttk.html">Tạo tài khoản mới</a>
+            </button> -->
+            <label id="create" for="signup">Đăng ký tài khoản</label>
+          </form>
+          <input type="checkbox" id="signup" />
+          <div class="form-wrapper">
+            <form action="" id="form-signup">
+              <label id="close" for="signup">X</label>
+              <!-- <div class="form-container"> -->
+              <h1>Đăng ký</h1>
+              <p
+                style="
+                  color: #606770;
+                  line-height: 38px;
+                  padding-left: 10px;
+                  margin-top: 0px;
+                "
+              >
+                Nhanh chóng và dễ dàng.
+              </p>
+              <div class="form">
+                <form>
+                  <input id="last-name" type="text" placeholder="Họ" />
+                  <input id="name" type="text" placeholder="Tên" />
+                  <input
+                    type="text"
+                    placeholder="Số di động hoặc email"
+                    id="id1"
+                  />
+                  <input
+                    type="password"
+                    placeholder="Mật khẩu mới"
+                    id="password1"
+                  />
+                  <fieldset style="border: none">
+                    <legend class="title1">Ngày sinh</legend>
+                    <select id="birth-date">
+                      <option value="0">Ngày</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                      <option value="7">7</option>
+                      <option value="8">8</option>
+                      <option value="9">9</option>
+                      <option value="10">10</option>
+                      <option value="11">11</option>
+                      <option value="12">12</option>
+                      <option value="13">13</option>
+                      <option value="14">14</option>
+                      <option value="15">15</option>
+                      <option value="16">16</option>
+                      <option value="17">17</option>
+                      <option value="18">18</option>
+                      <option value="19">19</option>
+                      <option value="20">20</option>
+                      <option value="21">21</option>
+                      <option value="22" selected="">04</option>
+                      <option value="23">23</option>
+                      <option value="24">24</option>
+                      <option value="25">25</option>
+                      <option value="26">26</option>
+                      <option value="27">27</option>
+                      <option value="28">28</option>
+                      <option value="29">29</option>
+                      <option value="30">30</option>
+                      <option value="31">31</option>
+                    </select>
+                    <select id="birth-month">
+                      <option value="0">Tháng</option>
+                      <option value="1">Tháng 1</option>
+                      <option value="2">Tháng 2</option>
+                      <option value="3">Tháng 3</option>
+                      <option value="4" selected="">Tháng 10</option>
+                      <option value="5">Tháng 5</option>
+                      <option value="6">Tháng 6</option>
+                      <option value="7">Tháng 7</option>
+                      <option value="8">Tháng 8</option>
+                      <option value="9">Tháng 9</option>
+                      <option value="10">Tháng 10</option>
+                      <option value="11">Tháng 11</option>
+                      <option value="12">Tháng 12</option>
+                    </select>
+                    <select id="year">
+                      <option value="0">Năm</option>
+                      <option value="2020">2020</option>
+                      <option value="2019">2019</option>
+                      <option value="2018">2018</option>
+                      <option value="2017">2017</option>
+                      <option value="2016">2016</option>
+                      <option value="2015">2015</option>
+                      <option value="2014">2014</option>
+                      <option value="2013">2013</option>
+                      <option value="2012">2012</option>
+                      <option value="2011">2011</option>
+                      <option value="2010">2010</option>
+                      <option value="2009">2009</option>
+                      <option value="2008">2008</option>
+                      <option value="2007">2007</option>
+                      <option value="2006">2006</option>
+                      <option value="2005">2005</option>
+                      <option value="2004">2004</option>
+                      <option value="2003">2003</option>
+                      <option value="2002">2002</option>
+                      <option value="2001">2001</option>
+                      <option value="1999">1999</option>
+                      <option value="1998">1998</option>
+                      <option value="1997" selected="">1994</option>
+                    </select>
+                  </fieldset>
+                  <fieldset style="border: none">
+                    <legend class="title1">Giới tính</legend>
+                    <div class="female">
+                      <label for="female">Nữ</label>
+                      <input type="radio" name="gioitinh" id="Nu" />
+                    </div>
+                    <div class="male">
+                      <label for="male">Nam</label>
+                      <input type="radio" name="gioitinh" id="Nam" />
+                    </div>
+                    <div class="others">
+                      <label for="others">Tùy chỉnh</label>
+                      <input type="radio" name="gioitinh" id="Tuychinh" />
+                    </div>
+                  </fieldset>
+                </form>
+                <div class="cookie">
+                  <p>
+                    Bằng cách nhấp vào Đăng ký, bạn đồng ý với
+                    <span style="color: blue"
+                      >Điều khoản, Chính sách dữ liệu</span
+                    >
+                    và <span style="color: blue">Chính sách cookie</span> của
+                    chúng tôi. Bạn có thể nhận được thông báo của chúng tôi qua
+                    SMS và hủy nhận bất kỳ lúc nào.
+                  </p>
+                </div>
+                <div class="submit">
+                  <button type="submit" class="submit-button">Đăng ký</button>
+                </div>
+              </div>
+              <!-- </div> -->
+            </form>
+          </div>
+
+          <div id="celeb">
+            <a href="#" style="color: black"><strong>Tạo Trang</strong></a> dành
+            cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
