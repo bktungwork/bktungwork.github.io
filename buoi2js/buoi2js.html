@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập buổi 2 JS</title>
+  </head>
+  <body>
+    <script>
+      // bai 1 tinh tổng 2 số
+      // let a = +prompt("Nhập số thứ nhất:", "");
+      // let b = +prompt("Nhập số thứ hai:", "");
+      // alert(`Tổng hai số là: ${a} + ${b} = ${a + b}`);
+
+      // bài 2 tính tất cả phép tính với 2 số
+      // let a = +prompt("Nhập số thứ nhất:", "");
+      // let b = +prompt("Nhập số thứ hai:", "");
+      // alert(`Tổng hai số là: ${a} + ${b} = ${a + b}`);
+      // alert(`Hiệu hai số là: ${a} - ${b} = ${a - b}`);
+      // alert(`Tích hai số là: ${a} * ${b} = ${a * b}`);
+      // alert(`Thương hai số là: ${a} / ${b} = ${a / b}`);
+
+      // bài 3 tính chu vi hcn
+      // let a = +prompt("Nhập độ dài cạnh a:", "");
+      // let b = +prompt("Nhập đọ dài cạnh b:", "");
+      // alert(`Chu vi hcn là: ( ${a} + ${b} ) * 2 = ${(a + b) * 2}`);
+
+      // bài 4 tính diện tích hcn
+      // let a = +prompt("Nhập độ dài cạnh a:", "");
+      // let b = +prompt("Nhập đọ dài cạnh b:", "");
+      // alert(`Diện tích hcn là: ${a} * ${b} = ${a * b}`);
+
+      // bài 5 tính đường kinh, chu vi và diện tích hình tròn
+      // const PI = 3.14;
+      // let r = +prompt("Nhập độ dài bán kính r:", "");
+      // alert(`Độ dài đường kính là: ${r} * 2 = ${r * 2}`);
+      // alert(`Chu vi hình tròn là: ${r} * 2 * PI = ${r * 2 * PI}`);
+      // alert(`Diện tích hình tròn là: ${r} * ${r} * PI = ${r * r * PI}`);
+
+      // bài 6 quy đổi cm sang m và km
+      // let a = +prompt("Nhập vào kích thước cm mà bạn muốn chuyển:", "");
+      // alert(`${a} cm = ${a / 100} m`);
+      // alert(`${a} cm = ${a / 1000} km`);
+
+      // bài 7 quy đổi độ C sang độ F
+      // let a = +prompt("Nhập vào nhiệt độ theo thang C mà bạn muốn chuyển:", "");
+      // alert(`${a} độ C = ${a * 1.8 + 32} độ F`);
+
+      // bài 8 tìm số lớn nhất trong 2 số
+      // let a = +prompt("Nhập số thứ nhất:", "");
+      // let b = +prompt("Nhập số thứ hai:", "");
+      // if (a > b) {
+      //   alert(`Số lớn nhất trong 2 số là: ${a}`);
+      // } else {
+      //   alert(`Số lớn nhất trong 2 số là: ${b}`);
+      // }
+
+      // bài 9 tìm số lớn nhất trong 3 số
+      // let a = +prompt("Nhập số thứ nhất:", "");
+      // let b = +prompt("Nhập số thứ hai:", "");
+      // let c = +prompt("Nhập số thứ ba:", "");
+      // if (a > b) {
+      //   if (a > c) {
+      //     alert(`Số lớn nhất trong 3 số là: ${a}`);
+      //   } else {
+      //     alert(`Số lớn nhất trong 3 số là: ${c}`);
+      //   }
+      // } else {
+      //   if (b > c) {
+      //     alert(`Số lớn nhất trong 3 số là: ${b}`);
+      //   } else {
+      //     alert(`Số lớn nhất trong 3 số là: ${c}`);
+      //   }
+      // }
+
+      // bài 10 kiểm tra âm, dương, bằng 0
+      // let a = +prompt("Nhập số muốn kiểm tra:", "");
+      // if (a == 0) {
+      //   alert("Số nhập vào là số 0");
+      // } else {
+      //   if (a > 0) {
+      //     alert("Số nhập vào là số dương");
+      //   } else {
+      //     alert("Số nhập vào là số âm");
+      //   }
+      // }
+
+      // bài 11 kiểm tra một số có chia hết cho 5 và 11
+      // let a = +prompt("Nhập số muốn kiểm tra:", "");
+      // if (a % 5 == 0 && a % 11 == 0) {
+      //   alert("Số nhập vào chia hết cho cả 5 và 11");
+      // } else {
+      //   alert("Sai cmnr !!");
+      // }
+
+      // bài 12 kiểm tra một số có là chẵn hay lẻ
+      // let a = +prompt("Nhập số muốn kiểm tra:", "");
+      // if (a % 2 == 0) {
+      //   alert("Số nhập vào là số chẵn");
+      // } else {
+      //   alert("Số nhập vào là số lẻ");
+      // }
+
+      // bài 13 kiểm tra một năm có là năm nhuận
+      // let a = +prompt("Nhập số muốn kiểm tra:", "");
+      // if (a % 100 == 0) {
+      //   if (a % 400 == 0) {
+      //     alert("Số nhập vào là năm nhuận");
+      //   } else {
+      //     alert("Số nhập vào ko là năm nhuận");
+      //   }
+      // } else {
+      //   if (a % 4 == 0) {
+      //     alert("Số nhập vào là năm nhuận");
+      //   } else {
+      //     alert("Số nhập vào ko là năm nhuận");
+      //   }
+      // }
+
+      // bài 14 kiểm tra một chữ cái có thuộc bảng chữ cái không
+      // let a = prompt("Nhập chữ muốn kiểm tra, nhập số đấm vỡ mõm !!:", "");
+      // if (a >= "A" && a <= "Z") {
+      //   alert("Chắc chắn là chữ cái");
+      // } else {
+      //   if (a >= "a" && a <= "z") {
+      //     alert("Chắc chắn là chữ cái");
+      //   } else {
+      //     alert("Ăn đấm nè !!");
+      //   }
+      // }
+
+      // bài 15 kiểm tra một chữ cái là nguyên âm hay phụ âm
+      // let a = prompt("Nhập chữ muốn kiểm tra, nhập số đấm vỡ mõm !!:", "");
+      // if (a >= "A" && a <= "Z") {
+      //   if (a == "A" || a == "E" || a == "I" || a == "O" || a == "U") {
+      //     alert("Chắc chắn là nguyên âm");
+      //   } else {
+      //     alert("Chắc chắn là phụ âm");
+      //   }
+      // } else {
+      //   if (a >= "a" && a <= "z") {
+      //     if (a == "a" || a == "e" || a == "i" || a == "ơ" ||   a == "u") {
+      //       alert("Chắc chắn là nguyên âm");
+      //     } else {
+      //       alert("Chắc chắn là phụ âm");
+      //     }
+      //   } else {
+      //     alert("Ăn đấm nè !!");
+      //   }
+      // }
+
+      // bài 16 kiểm tra một chữ cái là thường hay hoa
+      // let a = prompt("Nhập chữ muốn kiểm tra, nhập số đấm vỡ mõm !!:", "");
+      // if (a >= "A" && a <= "Z") {
+      //   alert("Chắc chắn là chữ hoa");
+      // } else {
+      //   if (a >= "a" && a <= "z") {
+      //     alert("Chắc chắn là chữ thường");
+      //   } else {
+      //     alert("Ăn đấm nè !!");
+      //   }
+      // }
+
+      // bài 17 nhập 1 số là ngày trong tuần, in ra thứ tương ứng
+      // let a = +prompt("Nhập số ngày muốn kiểm tra:", "");
+      // switch (a) {
+      //   case 1:
+      //     alert("Thứ hai là ngày đầu tuần, bé hứa cố gắng chăm ngoan !");
+      //     break;
+      //   case 2:
+      //     alert("Thứ ba, ");
+      //     break;
+      //   case 3:
+      //     alert("Thứ tư, ");
+      //     break;
+      //   case 4:
+      //     alert("Thứ năm, ngày nào bé cũng cố gắng !");
+      //     break;
+      //   case 5:
+      //     alert("Thứ sáu ");
+      //     break;
+      //   case 6:
+      //     alert("rồi đến Thứ bảy ");
+      //     break;
+      //   case 7:
+      //     alert("cố cho bé Phiếu bé ngoan vì hôm nay là Chủ Nhật !!");
+      //     break;
+      //   default:
+      //     alert("Bạn không ngoan rồi :)");
+      //     break;
+      // }
+
+      // bài 18 nhập vào một tháng, in ra số ngày trong tháng
+      // let a = +prompt("Nhập tháng muốn kiểm tra !!:", "");
+      // if (a == 2) {
+      //   alert("Tháng 2 có 28 hoặc 29 ngày");
+      // } else {
+      //   if (a == 4 || a == 6 || a == 9 || a == 11) {
+      //     alert(`Tháng ${a} có 30 ngày`);
+      //   } else {
+      //     alert(`Tháng ${a} có 31 ngày`);
+      //   }
+      // }
+
+      // bài 19 nhập 3 số a b c, in ra nghiệm phương trình bậc 2 tương ứng
+      // let a = +prompt("Nhập số thứ nhất:", "");
+      // let b = +prompt("Nhập số thứ hai:", "");
+      // let c = +prompt("Nhập số thứ ba:", "");
+      // let d = b * b - 4 * a * c;
+      // if (a == 0) {
+      //   alert(`Phương trình có nghiệm: ${-c / b}`);
+      // } else {
+      //   if (d == 0) {
+      //     alert(`Phương trình có nghiệm kép: ${-b / (2 * a)}`);
+      //   } else {
+      //     if (d > 0) {
+      //       let d2 = Math.sqrt(d);
+      //       alert(
+      //         `Phương trình có hai nghiệm phân biệt: ${
+      //           (-b - d2) / (2 * a)
+      //         } và ${(-b + d2) / (2 * a)}`
+      //       );
+      //     } else {
+      //       alert("Vô nghiệm rồi :)");
+      //     }
+      //   }
+      // }
+
+      // bài 20 Viết chương trình đổi điểm từ hệ số 10 sang hệ chữ cho sinh viên, điểm nhập từ bàn phím
+      // let a = +prompt("Nhập số điểm của sinh viên:", "");
+      // if (a < 4) {
+      //   alert("Bạn bị điểm F, đóng tiền học lại thôi bạn :D");
+      // } else {
+      //   if (a < 5.5) {
+      //     alert("Bạn bị điểm D, đóng tiền thi lại thôi bạn :)");
+      //   } else {
+      //     if (a < 7) {
+      //       alert("Bạn được điểm C, may mắn qua môn :v");
+      //     } else {
+      //       if (a < 8.5) {
+      //         alert("Bạn được điểm B, bạn được điểm khá !");
+      //       } else {
+      //         alert("Bạn được điểm A, bạn được điểm giỏi !!");
+      //       }
+      //     }
+      //   }
+      // }
+
+      // bài 21  Viết chương trình cho phép nhập lương cơ bản, tính tổng lương của nhân viên theo công thức: Lương = Lương cơ bản + HRA + DA
+      let a = +prompt("Nhập số lương cơ bản:", "");
+      if (a < 2000000) {
+        alert(`Tổng lương của bạn là: ${a * 2} VNĐ`);
+      } else {
+        if (a < 5000000) {
+          alert(`Tổng lương của bạn là: ${a * 2.15} VNĐ`);
+        } else {
+          alert(`Tổng lương của bạn là: ${a * 2.3} VNĐ`);
+        }
+      }
+    </script>
+  </body>
+</html>
